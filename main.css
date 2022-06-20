@@ -8,7 +8,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 .wrapper--bg {
-    background: url(./img/1.png) top center, url(./img/2.png) bottom 165px right;
+    background: url(./img/1.png) top center, url(./img/2.png) bottom 60px right;
     background-repeat: no-repeat;
     background-size: contain;
     
@@ -261,6 +261,7 @@ h1, h2, h3, h4 {
 }
 .news__text-descr {
     margin-bottom: 22px;
+    min-height: 49px;
 }
 .paginator {
     text-align: center;
