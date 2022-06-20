@@ -245,7 +245,7 @@ h1, h2, h3, h4 {
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 21px 30px;
+    padding: 2px 30px;
     min-height: 130px;
     vertical-align: top;
 }
@@ -256,11 +256,11 @@ h1, h2, h3, h4 {
 .news__text-title {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
     letter-spacing: 0.8px;
 }
 .news__text-descr {
-    margin-bottom: 22px;
+    margin-bottom: 17px;
     min-height: 49px;
 }
 .paginator {
@@ -280,8 +280,8 @@ h1, h2, h3, h4 {
 }
 .paginator__link {
     display: block;
-    width: 32px;
-    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
     border-radius: 50%;
    /* position: relative; */
    text-decoration: none;
@@ -308,6 +308,7 @@ h1, h2, h3, h4 {
     margin-left: -592px;
     vertical-align: top;
     margin-top: 97px;
+    margin-bottom: 58px;
 }
 .about-info__title {
     font-size: 36px;
@@ -320,7 +321,7 @@ h1, h2, h3, h4 {
     color: #060606;
     line-height: 27px;
 }
-.about--container::before {
+.about__container::before {
     content: '';
     display: inline-block;
     width: 940px;
@@ -331,13 +332,12 @@ h1, h2, h3, h4 {
     vertical-align: top;
 }
 .footer-content__cont {
-    background-image: url(./img/line.png);
-    height: 2px;   
+    border-top: 1px solid #9A9A9A;
 }
 .footer {
     height: 152px;
     position: relative;
-    margin-top: 81px;
+    margin-top: 23px;
 }
 .socials__list {
     position: absolute;
