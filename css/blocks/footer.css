@@ -1,0 +1,30 @@
+.footer-content {
+    margin-top: auto;
+}
+.footer-content__cont {
+    border-top: 1px solid #9A9A9A;
+}
+.footer-content__section {
+    height: 84px;
+    margin-top: 23px;
+}
+.footer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__col {
+    display: flex;
+    align-items: center;
+}
+.footer__col--align--right {
+    justify-content: flex-end;
+}
+
+.inner-footer__container {
+    padding: 44px 0;
+}
+.inner-footer {
+    margin-top: auto;
+}

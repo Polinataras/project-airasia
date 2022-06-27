@@ -1,0 +1,13 @@
+.container {
+    margin: 3px auto;
+    width: 1138px;
+}
+.about__container::before {
+    content: '';
+    width: 940px;
+    height: 505px;
+    background-image: url(../../img/gates.png);
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    display: block;
+}

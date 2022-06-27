@@ -1,0 +1,86 @@
+/*Вторая секция*/
+.tours {
+    margin-top: 243px;
+    margin-bottom: 126px;
+    display: flex;
+    flex-direction: column;
+}
+.tours__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 49px;
+    letter-spacing: 1.8px;
+}
+.tours__title--img::after{
+    content: '';
+    display: inline-block;
+    width: 21px;
+    height: 28px;
+    background-image: url(./img/flame.png);
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    vertical-align: middle;
+    
+}
+.tours__list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tours__item {    
+       
+    width: calc(100% / 3 - 18px);
+}
+.tour {
+    min-height: 449px;
+    background: white;
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: column;
+}
+.tours__item:last-child {
+    margin-right: 0;
+}
+.tour__icon {
+    min-height: 144px;
+    margin-bottom: 14px;
+}
+.tour__description {
+    color: black;
+    padding: 20px 21px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.tour__caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+.tour__info-list {
+    margin-bottom: 11px;
+    display: flex;
+    justify-content: space-between;
+}
+.tour__info-item {
+    margin-right: 43px; 
+    display: flex;
+
+    
+}
+
+.tour__info-icon {
+    margin-right: 8px;
+    margin-left: 3px;
+ 
+}
+.tour__info-text {
+ 
+    color: #666666;    
+}
+.tour__text {
+    color: #303030;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    margin-bottom: 24px;
+}

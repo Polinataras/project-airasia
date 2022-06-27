@@ -1,0 +1,43 @@
+.socials__list {
+    margin-right: 74px;
+}
+.socials__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.socials__item:last-child {
+    margin-right: 0;
+}
+.socials__icon {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+    
+}
+.socials__item--icon--tg .socials__icon {
+    background-image: url(../../img/t.png);
+}
+.socials__item--icon--tg .socials__icon:hover {
+    background-image: url(../../img/t\ \(1\).png);
+}
+.socials__item--icon--vk .socials__icon {
+    background-image: url(../../img/vk.png);
+}
+.socials__item--icon--vk .socials__icon:hover {
+    background-image: url(../../img/vk\ \(1\).png);
+}
+.socials__item--icon--fb .socials__icon {
+    background-image: url(../../img/facebook\ 1.png);
+}
+.socials__item--icon--fb .socials__icon:hover {
+    background-image: url(../../img/f2.png);
+}
+.socials__item--icon--inst .socials__icon {
+    background-image: url(../../img/in.png);
+}
+.socials__item--icon--inst .socials__icon:hover {
+    background-image: url(../../img/in\ \(1\).png);
+}

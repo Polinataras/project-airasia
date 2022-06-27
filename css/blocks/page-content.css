@@ -1,0 +1,13 @@
+.page-content {
+    background: white;
+    color: #303030;
+    padding: 94px 0 77px;
+}
+.page-content__list {
+    margin-bottom: 65px;
+}
+
+.page-content__item {
+    display: flex;
+    margin-bottom: 50px;
+}

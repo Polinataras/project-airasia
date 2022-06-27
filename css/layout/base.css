@@ -1,0 +1,25 @@
+body {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 1.42; /*???????*/
+    background: #001821;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    overflow: hidden;
+    min-width: 1200px;
+}
+.wrapper--bg {
+    background: url(../../img/1.png) top center, url(../../img/2.png) bottom 165px right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+* {
+    box-sizing: border-box;
+}

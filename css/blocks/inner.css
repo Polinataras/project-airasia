@@ -1,0 +1,29 @@
+.inner-section {
+    background: #F4F5F5;
+    padding: 90px 0 70px;
+    color: #1A1B1E;
+}
+.inner-section__title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 48px;
+}
+.inner-section__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.inner-section__item {
+    margin-left: 19px;
+}
+.inner-section__item:nth-child(4n + 1) {
+    margin-left: 0;
+}
+.inner-section__link {
+    text-decoration: none;
+    display: flex;
+    width: 270px;
+    height: 130px;
+    align-items: center;
+    justify-content: center;
+}

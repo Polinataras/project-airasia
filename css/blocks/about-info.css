@@ -1,0 +1,33 @@
+/*Четвертая секция*/
+
+.about__container{
+    display: flex;
+}
+.about-info {
+   
+    border-radius: 5px;
+    max-width: 785px;
+    background-image: url(../../img/mountains.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding: 70px 202px 66px 81px;
+    min-height: 455px;
+    color: black;
+    margin-left: -592px;
+    vertical-align: top;
+    margin-top: 97px;
+    margin-bottom: 58px;
+}
+.about-info__title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 37px;
+
+}
+.about-info__text {
+    margin-bottom: 68px;   
+    color: #060606;
+    line-height: 27px;
+}
+
