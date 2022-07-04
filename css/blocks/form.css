@@ -1,0 +1,65 @@
+.inner-section--partners {
+    padding: 69px 0 70px;
+}
+.form__row {
+    display: flex;
+    margin-bottom: 26px;
+ }
+ .form__input {
+    flex: 1;
+    margin-right: 50px;
+    border-radius: 5px;
+    border: none;
+    background: white;
+    padding: 20px 30px;
+    font-size: 18px;
+    color: #1A1B1E;
+ }
+ input:focus {
+    border-color: red;
+}
+ 
+ .form__input::placeholder {
+    color: #666666;
+ }
+ .form__input:last-child {
+    margin-right: 0px;   
+ }
+ .form__input--textarea {
+    height: 235px;
+    padding: 38px 30px;
+ }
+
+ .forms__controls {
+    display: flex;
+    margin-bottom: 22px;
+ }
+ .forms__controls-title {
+    width: 38%;
+    font-size: 18px;
+    padding-top: 16px;
+}
+
+button {
+    border: none;
+ }
+ .button--color--black {
+    color: white;  
+    background: #2B2B2B;
+ }
+ .button--color--black:hover {
+    color: white;   
+    background: #8E8E8E;
+ }
+ .form__btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+ }
+ .form__btn {
+    margin-right: 20px;
+    padding: 18px 45px;
+ }
+ .form__btn:last-child {
+    margin-right: 0;
+ }

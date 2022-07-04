@@ -1,0 +1,26 @@
+.separator {
+    background: url(../../img/reviews/Rectangle.png);   
+    min-height: 363px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .separator__icon {
+    height: 341px;
+    width: 487px;
+    margin-left: 148px;
+    margin-top: 18px;
+ }
+
+ .separator__content {
+    min-width: 50%;
+    display: flex;
+    align-items: center;
+ }
+ .separator__title {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.4;
+    padding-top: 17px;
+    max-width: 471px;
+ }
