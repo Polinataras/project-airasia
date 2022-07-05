@@ -4,6 +4,7 @@
     /*position: absolute;
     top: 20px;
     right: 0px; */
+    
 }
 .contacts__text {
     color: #9A9A9A;
@@ -16,9 +17,23 @@
     margin-bottom: -1px;
 
 }
-.contacts__workhours {
-   
-    font-size: 13px;
-    text-decoration: underline;
+.workhours {   
+    font-size: 13px;    
     top: 60px;
+    
+}
+.workhours:hover .workhours__info {
+    display: block;
+}
+.workhours__info {
+    background: url(../../img/Прямоугольник\,\ скругл.\ углы\ 9.png) no-repeat;
+    position: absolute;
+    display: none;
+    text-align: left;
+    color: #1E1F20;
+    transform: translateX(32px);
+}
+.workhours__list {
+    padding: 20px;
+
 }

@@ -26,4 +26,8 @@
     height: 130px;
     align-items: center;
     justify-content: center;
+    filter: grayscale(100%);
+}
+.inner-section__link:hover {
+    filter: grayscale(0%);
 }
